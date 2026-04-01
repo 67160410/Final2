@@ -1,11 +1,11 @@
 import CourseCard from "./CourseCard";
 
-function DepartmentView({deptId, deptName, courses})  {
+function DepartmentView({ deptId, deptName, courses })  {
     console.log("Department:", deptName, "CourseCard:", courses.length);
 
     return (
         <div>
-            <h2>{deptName}</h2>
+            <h2>{deptName}{deptId}</h2>
 
             {
                 courses.map((course) => (
