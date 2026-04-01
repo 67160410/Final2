@@ -5,7 +5,7 @@ function DepartmentView({ deptId, deptName, courses })  {
 
     return (
         <div>
-            <h2>{deptName}{deptId}</h2>
+            <h2>{deptName} ({deptId})</h2>
 
             {
                 courses.map((course) => (
